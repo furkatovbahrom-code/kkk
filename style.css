@@ -1,0 +1,113 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: system-ui, Arial, sans-serif;
+}
+
+body{
+  background:#0b0f14;
+  color:#fff;
+}
+
+/* HEADER */
+header{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:14px 16px;
+  background:#000;
+}
+
+.logo{
+  font-weight:800;
+  font-size:22px;
+  color:#2cff9a;
+}
+
+.langs button{
+  background:#111;
+  color:#fff;
+  border:1px solid #2cff9a;
+  padding:6px 8px;
+  margin-left:4px;
+  border-radius:6px;
+}
+
+/* HERO */
+.hero{
+  padding:30px 16px;
+  background:linear-gradient(180deg,#0f2027,#000);
+}
+
+.hero h1{
+  font-size:28px;
+  margin-bottom:10px;
+}
+
+.hero p{
+  font-size:15px;
+  color:#ccc;
+}
+
+.actions{
+  display:flex;
+  flex-direction:column;
+  gap:10px;
+  margin-top:20px;
+}
+
+.btn{
+  text-align:center;
+  padding:14px;
+  border-radius:10px;
+  font-weight:600;
+  text-decoration:none;
+}
+
+.call{background:#2cff9a;color:#000;}
+.wa{background:#25D366;color:#000;}
+.ig{background:#c13584;color:#fff;}
+
+/* CARDS */
+.cards{
+  padding:30px 16px;
+  display:grid;
+  gap:14px;
+}
+
+.card{
+  background:#121923;
+  border-radius:14px;
+  padding:18px;
+}
+
+/* FAQ */
+.faq{
+  padding:30px 16px;
+}
+
+.faq h2{
+  margin-bottom:14px;
+}
+
+.qa{
+  margin-bottom:12px;
+  background:#121923;
+  padding:14px;
+  border-radius:10px;
+}
+
+/* BUSINESS */
+.biz{
+  padding:30px 16px;
+  background:#0f2027;
+}
+
+/* FOOTER */
+footer{
+  text-align:center;
+  padding:20px;
+  font-size:13px;
+  color:#888;
+}
